@@ -14,7 +14,7 @@ public class Game_PRICE extends MIDlet implements CommandListener {
     private TextField xmax;
     private TextField ymin;
     private TextField ymax;
-    String HELP_TEXT="This graphing calculator uses \"RPN\" equations as input.\nSupported commands:\n'_': Used to indicate negative number\n'x':The x input variable\n'u':Push\n'd':Pop\n'r':Swap X and Y\n'-':Y-X\n'+':Y+X\n'*':Y*X\n'/':Y/X\n's':Sin(x)\n'c':Cos(x)\n't':Tan(x)\n',':Sqrt(x)\n'a':Abs(x)";
+    String HELP_TEXT="This graphing calculator uses \"RPN\" equations as input.\nBy the way, this thing isn't even REMOTELY accurate when it comes to ln or e^x. Do NOT use it for mission critical stuff! DON'T EVEN THINK ABOUT IT!!!\nSupported commands:\n'_': Used to indicate negative number\n'x':The x input variable\n'u':Push\n'd':Pop\n'r':Swap X and Y\n'-':Y-X\n'+':Y+X\n'*':Y*X\n'/':Y/X\n's':Sin(x)\n'c':Cos(x)\n't':Tan(x)\n',':Sqrt(x)\n'a':Abs(x)\n'l':ln(x)\n'e':e^x\n'p':Y^X";
     public Game_PRICE() {
         display = Display.getDisplay(this);
         goCommand = new Command("Go", Command.OK, 0);
